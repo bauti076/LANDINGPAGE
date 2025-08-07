@@ -11,9 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body style="background-color: rgb(222, 224, 107);">
-    <div class="imagen">
-    <img src="banner.png" alt="">
-    </div>
+    <picture>
+  <source media="(min-width: 768px)" srcset="banner.png">
+  <img  class="banner" src="2.png" alt="Ya llega! Más de 100.000 productos">
+</picture>
     <br>
     <div class="container">
         <h1 id="mensaje">NUEVOS BOTINES</h1>
@@ -130,6 +131,7 @@ faqQuestions.forEach(question => {
     alert("¡Gracias por suscribirte!");
 });
     </script>
-
+    <picture>
+ 
 </body>
 </html>
